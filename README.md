@@ -22,4 +22,4 @@ To install
 pip install readgood
 ```
 
-[0]: http://makeagif.com/i/WbVjLe
+[0]: https://github.com/wasade/readgood/raw/master/_assets/example.gif
