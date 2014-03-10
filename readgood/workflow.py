@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+import unicodedata
 from bipy.core.workflow import Workflow, not_none
 from numpy import floor, ceil
 

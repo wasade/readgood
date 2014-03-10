@@ -52,7 +52,8 @@ setup(name='readgood',
       maintainer=__maintainer__,
       maintainer_email=__email__,
       url='https://github.com/wasade/readgood',
-      packages=['readgood'],
+      packages=['readgood',
+                'texts'],
       scripts=glob('scripts/readgood*'),
       install_requires=["pyqi == 0.3.1"], # bipy is not pip installable yet
       classifiers=classifiers

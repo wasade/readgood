@@ -1,0 +1,9 @@
+include README.md
+include LICENSE
+
+graft texts
+graft scripts
+
+global-exclude *.pyc
+global-exclude *.pyo
+global-exclude .git
