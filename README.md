@@ -18,7 +18,12 @@ It has been awesomized for terminals:
 To install
 ==========
 
+``readgood`` currently depends on [bipy](https://github.com/biocore/bipy) which is unfortunately not ``pip`` installable directly at this time. Additionally, due to dependencies at setup time, ``verman`` and ``numpy`` need to be installed separately. The following should work though (annoying but still simple):
+
 ```bash
+pip install numpy
+pip install git+https://github.com/biocore/bipy.git
+pip install verman
 pip install readgood
 ```
 
