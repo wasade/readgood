@@ -1,0 +1,3 @@
+#!/bin/sh
+
+exec pyqi --driver-name readgood --command-config-module readgood.interfaces.optparse.config -- "$@"

@@ -1,0 +1,26 @@
+Usage: readgood readgooder [options] {--text TEXT}
+
+[] indicates optional input (order unimportant)
+{} indicates required input (order unimportant)
+
+Put all the words in a box
+
+Example usage:
+Print help message and exit
+ readgood readgooder -h
+
+Write all the text: Read gooder
+ readgood readgooder --text=some_file
+
+Options:
+  --version             show program's version number and exit
+  -h, --help            show this help message and exit
+  --tickmark-in-box-index=TICKMARK_IN_BOX_INDEX
+                        The tick position of the box [default: 8]
+  --box-width=BOX_WIDTH
+                        Length of the box [default: 20]
+
+  REQUIRED options:
+    The following options must be provided under all circumstances.
+
+    --text              The input text [REQUIRED]
